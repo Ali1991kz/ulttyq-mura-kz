@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дәстүрлер</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f9f1e7;
+            color: #333;
+            margin: 0;
+        }
+        header {
+            background: #8B0000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            padding: 15px;
+            text-decoration: none;
+            color: #8B0000;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background: #8B0000;
+            color: #fff;
+        }
+        .content {
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #8B0000;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 300px; /* Устанавливаем фиксированную ширину */
+            height: 200px; /* Устанавливаем фиксированную высоту */
+            object-fit: cover; /* Обрезаем изображение, чтобы оно поместилось */
+            border: 2px solid #8B0000; /* Добавляем рамку (опционально) */
+            border-radius: 5px; /* Слегка скругляем углы (опционально) */
+            opacity: 0;
+            animation: fadeInSequence 1.5s ease-out forwards;
+        }
+
+        img:nth-of-type(odd) {
+            transform: translateX(50px);
+        }
+
+        img:nth-of-type(even) {
+            transform: translateX(-50px);
+        }
+
+        img:hover {
+            transform: scale(1.1); /* Увеличение при наведении */
+        }
+
+        @keyframes fadeInSequence {
+            0% {
+                opacity: 0;
+                transform: translateX(0);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        img {
+            animation-delay: calc(var(--delay, 0) * 0.5s);
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>Дәстүрлер</header>
+    <nav>
+        <a href="index.html">Басты бет</a>
+        <a href="history.html">Тарих</a>
+        <a href="culture.html">Мәдениет</a>
+        <a href="news.html">Жаңалықтар</a>
+        <a href="contact.html">Байланыс</a>
+    </nav>
+    <div class="content">
+        <h1>Қазақ дәстүрлері</h1>
+        <p>Қазақ халқының дәстүрлері сан ғасырлар бойы қалыптасып, ұлттық болмыстың ажырамас бөлігіне айналды. Әрбір дәстүр халқымыздың бай тарихы мен мәдениетінен сыр шертеді.</p>
+        <p><b>Қонақжайлылық:</b> Қазақ халқының басты ерекшеліктерінің бірі — қонақжайлылық. Үйге келген қонақ «құдайы қонақ» деп саналып, ең дәмді тағамдар ұсынылады. Бұл дәстүр халқымыздың мейірімділігі мен ашықтығын көрсетеді.</p>
+        <img src="https://qazdauiri.kz/image/post/14122/image" alt="Қазақ халқының дәстүрлері 2" style="--delay: 1;">
+        <p><b>Бата беру:</b> Бата — бұл ізгі тілектер мен алғыстардың көрінісі. Әдетте, үлкен кісілер ақ тілектерін айтып, жастарға немесе сапарға шыққандарға бата береді.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRHx3ZNXYDzqMxqtraYjS-low1nCyuZNFAvA&s" alt="Қазақ халқының дәстүрлері 3" style="--delay: 2;">
+        <p><b>Той дәстүрлері:</b> Қазақ халқының тойлары ерекше сән-салтанатпен өтеді. Сүндет той, беташар, бесік той сияқты дәстүрлер отбасылық өмірдің маңызды кезеңдерімен байланысты.</p>
+        <img src="https://martebe.kz/wp-content/uploads/2021/03/1558867968.jpg" alt="Қазақ халқының дәстүрлері 4" style="--delay: 3;">
+	<p><b>Ұлттық киім:</b> ҚҚазақтың ұлттық киімдері ою-өрнекпен безендіріліп, халықтың мәдениеті мен эстетикасын айқын көрсетеді. Әсіресе, «шапан», «кемер белдік», «сәукеле» сияқты киім элементтері тарихи маңызға ие.</p>
+	<img src="https://scontent.fala3-3.fna.fbcdn.net/v/t39.30808-6/432768641_938256074970596_4280245472002370280_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=oZbgn2os_WsQ7kNvgHTcOiJ&_nc_zt=23&_nc_ht=scontent.fala3-3.fna&_nc_gid=AUniM53r-T0RoUj4FvKaiMR&oh=00_AYAKAsZmR2r0Rfy1VXasyQYdbzrkyLh0ks51RtQmvevgZg&oe=679152E6" alt="Қазақ халқының дәстүрлері 5" style="--delay: 4;">   
+ </div>
+    <footer>
+        <p>Байланыс: egizbaeva_85@mail.ru </p>
+    </footer>
+</body>
+</html>

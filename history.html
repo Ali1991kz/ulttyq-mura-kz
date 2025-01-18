@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тарих</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f9f1e7;
+            color: #333;
+            margin: 0;
+        }
+        header {
+            background: #8B0000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            padding: 15px;
+            text-decoration: none;
+            color: #8B0000;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background: #8B0000;
+            color: #fff;
+        }
+        .content {
+            display: flex; /* Включаем Flexbox */
+            flex-direction: column; /* Располагаем элементы в колонку */
+            align-items: center; /* Горизонтальное центрирование */
+            justify-content: center; /* Вертикальное центрирование */
+            padding: 20px;
+            min-height: calc(100vh - 160px); /* Учитываем высоту header и footer */
+            box-sizing: border-box;
+            text-align: center; /* Центрируем текст */
+        }
+        h1 {
+            color: #8B0000;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto; /* Сохраняет пропорции */
+            margin: 20px 0;
+
+            /* Анимация */
+            opacity: 0;
+            transform: translateY(-50px);
+            animation: fadeInFromTop 1.5s ease-out forwards;
+        }
+
+        /* Ключевые кадры для анимации */
+        @keyframes fadeInFromTop {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>Тарих</header>
+    <nav>
+        <a href="index.html">Басты бет</a>
+        <a href="culture.html">Мәдениет</a>
+        <a href="traditions.html">Дәстүрлер</a>
+        <a href="news.html">Жаңалықтар</a>
+        <a href="contact.html">Байланыс</a>
+    </nav>
+    <div class="content">
+        <h1>Қазақстанның тарихы</h1>
+        <p>Қазақстанның тарихы — бұл Ұлы дала мәдениетінің, көшпенді өркениеттің және ежелгі халықтардың терең тарихы. Ежелгі заманда Қазақстан аумағында сақтар, ғұндар, үйсіндер, қаңлылар сияқты халықтар өмір сүрді.</p>
+        <p>Орта ғасырларда бұл өңірде Түркі қағанаты, Қарахан мемлекеті, Алтын Орда сынды ірі империялар пайда болды. Олар қазақ жерінің мәдениеті мен өркениетінің дамуына зор үлес қосты.</p>
+        <p>XV ғасырда Қазақ хандығы құрылып, халықтың өзіндік бірегейлігі мен ұлттық рухы нығайды. Бұл кезең қазақ халқының мемлекеттік құрылымының негізін қалады.</p>
+        <p>Қазақстанның тарихы тек ерлік пен мәдениет қазыналарының ғана емес, сонымен қатар ғылым, білім және өнеркәсіп саласындағы табыстарымен ерекшеленеді. Қазіргі таңда Қазақстан әлемдік аренада тәуелсіз мемлекет ретінде танылып отыр.</p>
+        <img src="https://e-history.kz/media/ent/kazakhstan-history-bg.png" alt="Қазақстан тарихы">
+    </div>
+    <footer>
+        <p>Байланыс:egizbaeva_85@mail.ru </p>
+    </footer>
+</body>
+</html>

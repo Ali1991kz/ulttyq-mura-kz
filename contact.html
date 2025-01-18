@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Байланыс</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f9f1e7;
+            color: #333;
+            margin: 0;
+        }
+        header {
+            background: #8B0000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            padding: 15px;
+            text-decoration: none;
+            color: #8B0000;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background: #8B0000;
+            color: #fff;
+        }
+        .content {
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #8B0000;
+        }
+        .contact-info {
+            margin: 20px auto;
+            padding: 15px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        .contact-info p {
+            line-height: 1.6;
+        }
+        .contact-form {
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #8B0000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact-form button:hover {
+            background: #a30000;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>Байланыс</header>
+    <nav>
+        <a href="index.html">Басты бет</a>
+        <a href="history.html">Тарих</a>
+        <a href="culture.html">Мәдениет</a>
+        <a href="traditions.html">Дәстүрлер</a>
+        <a href="news.html">Жаңалықтар</a>
+    </nav>
+    <div class="content">
+        <h1>Байланыс мәліметтері</h1>
+        
+        <div class="contact-info">
+            <p><b>Телефон:</b> +7 702 394 5785</p>
+            <p><b>Email:</b> egizbaeva_85@mail.ru </p>
+            <p><b>Мекенжай:</b> Алматы облысы Іле ауданы Екпінді ауылы Шевченко көшесі 3</p>
+            <p><b>Жұмыс уақыты:</b> Дүйсенбі - Жұма, 09:00 - 18:00</p>
+        </div>
+
+        <h2>Бізге хат жіберіңіз</h2>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Атыңыз:</label>
+                <input type="text" id="name" name="name" placeholder="Атыңызды енгізіңіз" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email адресіңізді енгізіңіз" required>
+
+                <label for="message">Хабарлама:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Хабарламаңызды осында жазыңыз..." required></textarea>
+
+                <button type="submit">Жіберу</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>Барлық құқықтар қорғалған &copy; 2025</p>
+    </footer>
+</body>
+</html>
